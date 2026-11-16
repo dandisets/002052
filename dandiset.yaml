@@ -41,8 +41,8 @@ assetsSummary:
   - LFP
   - ProcessingModule
 citation: Tuna, Tugce (2026) Data for 'Associative coding of conditioned fear in the
-  thalamic nucleus reuniens in rodents and humans' research paper (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002052/draft
+  thalamic nucleus reuniens in rodents and humans' research paper (Version 0.261116.2107)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002052/0.261116.2107
 contributor:
 - affiliation: []
   email: tugcet@illinois.edu
@@ -61,12 +61,14 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-11-06T18:17:59.394642+00:00'
+datePublished: '2026-11-16T21:07:32.588656+00:00'
 description: 'Fiber photometric and single-unit electrophysiological recording data
   from the thalamic nucleus reuniens in male and female Long-Evans rats. Recordings
   spanned multiple days, including habituation, auditory fear conditioning, conditioning
   context extinction and retrieval, and cued extinction and retrieval. This Dandiset
   contains raw recordings. For processed data underlying each figure panel in the
   paper, please refer to: https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-025-08580-0/MediaObjects/42003_2025_8580_MOESM3_ESM.xlsx.'
+doi: 10.48324/dandi.002052/0.261116.2107
 ethicsApproval:
 - contactPoint:
     email: animalcompliance@tamu.edu
@@ -74,7 +76,7 @@ ethicsApproval:
     url: https://research.tamu.edu/research-compliance/animals-in-research-and-teaching/
   identifier: 2020-0305
   schemaKey: EthicsApproval
-id: DANDI:002052/draft
+id: DANDI:002052/0.261116.2107
 identifier: DANDI:002052
 keywords:
 - nucleus reuniens
@@ -85,11 +87,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002052/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002052/0.261116.2107/assets.yaml
 name: Data for 'Associative coding of conditioned fear in the thalamic nucleus reuniens
   in rodents and humans' research paper
 protocol:
 - https://doi.org/10.1038/s42003-025-08580-0
+publishedBy:
+  endDate: '2026-11-16T21:07:32.588656+00:00'
+  id: urn:uuid:94614715-3226-401d-a635-db09f42cf663
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-16T21:07:32.588656+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:bcc00890-df79-443f-b964-e1cec679bc27
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s42003-025-08580-0
   name: Associative coding of conditioned fear in the thalamic nucleus reuniens in
@@ -105,6 +119,6 @@ schemaVersion: 0.7.0
 studyTarget:
 - Studying neural correlates of aversive learning in the thalamic nucleus reuniens
   of male and female rats
-url: https://dandiarchive.org/dandiset/002052/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002052/0.261116.2107
+version: 0.261116.2107
 wasGeneratedBy: []
