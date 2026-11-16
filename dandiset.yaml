@@ -76,7 +76,9 @@ name: Data for 'Associative coding of conditioned fear in the thalamic nucleus r
   in rodents and humans' research paper
 protocol:
 - https://doi.org/10.1038/s42003-025-08580-0
-relatedResource: []
+relatedResource:
+- {}
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
