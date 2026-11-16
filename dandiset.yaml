@@ -26,8 +26,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 13965844437
-  numberOfFiles: 172
+  numberOfBytes: 13972964221
+  numberOfFiles: 179
   numberOfSubjects: 32
   schemaKey: AssetsSummary
   species:
@@ -58,7 +58,8 @@ description: 'Fiber photometric and single-unit electrophysiological recording d
   context extinction and retrieval, and cued extinction and retrieval. This Dandiset
   contains raw recordings. For processed data underlying each figure panel in the
   paper, please refer to: https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-025-08580-0/MediaObjects/42003_2025_8580_MOESM3_ESM.xlsx.'
-ethicsApproval: []
+ethicsApproval:
+- {}
 id: DANDI:002052/draft
 identifier: DANDI:002052
 keywords:
@@ -73,6 +74,8 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002052/versions/draft/assets/
 name: Data for 'Associative coding of conditioned fear in the thalamic nucleus reuniens
   in rodents and humans' research paper
+protocol:
+- https://doi.org/10.1038/s42003-025-08580-0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
